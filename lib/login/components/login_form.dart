@@ -1,9 +1,6 @@
-import 'dart:convert';
-
 import 'package:bigmartsalesprediction/components/already_have_an_account.dart';
 import 'package:bigmartsalesprediction/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import '../../constants.dart';
 
 class LoginForm extends StatelessWidget {
