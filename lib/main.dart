@@ -1,5 +1,7 @@
 // import 'package:bigmartsalesprediction/login/login_screen.dart';
 import 'package:bigmartsalesprediction/constants.dart';
+import 'package:bigmartsalesprediction/login/components/login_form.dart';
+import 'package:bigmartsalesprediction/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 //internal modules
@@ -15,6 +17,10 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
+      routes: {
+        // '/':(context)=>const LoginForm(),
+        '/signup':(context)=>const SignUpScreen()
+      },
       debugShowCheckedModeBanner: false,
       title: "Big Mart Sales Prediction",
       //adding theme to app
